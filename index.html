@@ -1,0 +1,49 @@
+<html>
+    <style>
+        
+    </style>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <script type="text/javascript" charset="utf-8" src="calc.js"></script>
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+        <form name="calculadora">
+            <div class="grid-container">
+                <input type="text" name="visor" class="output"></input>
+                <input type="button" name="CE" value="CE"
+                onclick="limpar()"></input>
+                <input type="button" name="0" value="0"
+                onclick="valor(value)"></input>
+                <input type="button" class="operator" name="divisão" value="/"
+                onclick="operacao(value)"></input>
+                <input type="button" class="operator" name="multiplicacão" value="*"
+                onclick="operacao(value)"></input>
+                <input type="button" name="1" value="1"
+                onclick="valor(value)"></input>
+                <input type="button" name="2" value="2"
+                onclick="valor(value)"></input>
+                <input type="button" name="3" value="3"
+                onclick="valor(value)"></input>
+                <input type="button" class="operator" name="soma" value="+"
+                onclick="operacao(value)"></input>
+                <input type="button" name="4" value="4"
+                onclick="valor(value)"></input>
+                <input type="button" name="5" value="5"
+                onclick="valor(value)"></input>
+                <input type="button" name="6" value="6"
+                onclick="valor(value)"></input>
+                <input type="button" class="operator" name="subtração" value="-"
+                onclick="operacao(value)"></input>
+                <input type="button" name="7" value="7"
+                onclick="valor(value)"></input>
+                <input type="button" name="8" value="8"
+                onclick="valor(value)"></input>
+                <input type="button" name="9" value="9"
+                onclick="valor(value)"></input>
+                <input type="button" class="operator" name="=" value="="
+                onclick="calcular()"></input>
+            </div>
+        </form>
+    </body>
+</html>
